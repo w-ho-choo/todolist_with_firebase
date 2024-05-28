@@ -14,7 +14,8 @@
   margin-left: 1em;
 }
 
-.delete-btn {
+.delete-btn,
+.edit-start-btn {
   margin-left: 0.25em;
 }
 

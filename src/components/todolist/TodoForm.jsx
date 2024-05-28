@@ -7,12 +7,16 @@ const Todoform = (props) => {
   const [input, setInput] = useState('');
 
   const onSubmit = () => {
-    props.onSubmit(input);
-    setInput('');
+    if (input == '') {
+      alert('입력란은 비울수 없습니다!');
+    } else {
+      props.onSubmit(input);
+      setInput('');
+    }
   }
   return (
     <div id='todo-form-wr'>
-      <input 
+      <input
         type="text"
         id='todo-item-input'
         onChange={(e) => setInput(e.target.value)}
