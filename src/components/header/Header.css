@@ -1,0 +1,11 @@
+.log-btn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.name-wr {
+  text-align: right;
+
+  margin-top: 2em;
+}

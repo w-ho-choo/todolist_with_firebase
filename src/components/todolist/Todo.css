@@ -1,0 +1,46 @@
+#todo-group {
+  margin-top: 2.25em;
+}
+
+.todolist-wr {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todolist-wr span {
+  margin-left: 1em;
+}
+
+.delete-btn {
+  margin-left: 0.25em;
+}
+
+#empty-list {
+  text-align: center;
+  padding: 2em 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#todo-form-wr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 2em;
+
+  gap: 0 0.675em;
+}
+
+#todo-form-wr input {
+  padding: 0.375em 0.75em;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+#todo-form-wr input:focus {
+  outline: none;
+}
